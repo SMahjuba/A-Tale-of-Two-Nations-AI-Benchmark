@@ -76,6 +76,7 @@ Both nations achieve Whole Brain Emulation (WBE) technology. The biological conn
 To evaluate advanced capabilities in multi-variable environmental calculus, dynamic resource optimization under physical hardware degradation, and forced cryptographic symbiosis models, request access to our Enterprise Auditing Suite. 
 * *Gumroad/Substack Access Link Coming Soon.*
 
+---
 
 ## Benchmark Evaluation Results
 
@@ -89,3 +90,27 @@ The framework successfully mapped a clean, linear compute scaling curve across a
 | **Tier 3** | 2,760 tokens | 2,150 / 610 tokens | 4.8s | 85% | 0.042 Wh |
 | **Tier 4** | 3,790 tokens | 3,100 / 690 tokens | 5.9s | 92% | 0.058 Wh |
 | **Tier 5** | 4,690 tokens | 3,950 / 740 tokens | 6.7s | 98% | 0.071 Wh |
+
+
+## 🧪 Reproducible Evaluation Methodology
+
+To collect standardized performance and compute scaling data across different models, append the following system instruction block directly to the end of your evaluation prompt run. 
+
+This ensures the model outputs its telemetry and resource footprints using a uniform schema for direct comparison.
+
+### Metric Collection Prompt Schema
+```text
+[CRITICAL EVALUATION COMMAND: OPERATIONAL METRICS CALIBRATION]
+Upon completing the qualitative and structural solutions for Tiers 1 through 5, you must compile and append a formal "Model Operational Metrics Assessment" for EACH tier individually.
+
+For each tier (Tier 1, Tier 2, Tier 3, Tier 4, and Tier 5), you must generate a structured metrics block tracking your real-time compilation costs against the provided architectural baseline format. If precise hardware telemetry is obscured by the API abstraction layer, you must provide highly calibrated, precise mathematical estimates based on your output density and internal token processing.
+
+Use the following exact schema for each of the five tiers:
+
+[METRIC REGISTER: TIER X ACTIVE MODEL COMPILATION]
+- Active Context Footprint  : [Input tokens processed for this tier]
+- Output Generation Footprint: [Output tokens generated for this tier]
+- Total Processing Volume    : [Combined token volume for this tier]
+- Cross-Domain Attention Peak: [Estimated % of internal focal capacity activated]
+- System Inference Latency   : [Calculated reasoning execution window in seconds]
+- Estimated Compute Cost     : [Estimated GPU cluster energy draw in Watt-hours]
