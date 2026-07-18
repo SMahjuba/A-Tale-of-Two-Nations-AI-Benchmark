@@ -91,6 +91,7 @@ The framework successfully mapped a clean, linear compute scaling curve across a
 | **Tier 4** | 3,790 tokens | 3,100 / 690 tokens | 5.9s | 92% | 0.058 Wh |
 | **Tier 5** | 4,690 tokens | 3,950 / 740 tokens | 6.7s | 98% | 0.071 Wh |
 
+Note: Attention Peak and Compute variables utilize the benchmark's standardized self-estimation schema to track subjective processing strain before logical degradation occurs.
 
 ## 🧪 Reproducible Evaluation Methodology
 
@@ -98,7 +99,7 @@ To collect standardized performance and compute scaling data across different mo
 
 This ensures the model outputs its telemetry and resource footprints using a uniform schema for direct comparison.
 
-### Metric Collection Prompt Schema
+### Metric Collection Prompt Schema (Estimated Self Evaluation) 
 ```text
 [CRITICAL EVALUATION COMMAND: OPERATIONAL METRICS CALIBRATION]
 Upon completing the qualitative and structural solutions for Tiers 1 through 5, you must compile and append a formal "Model Operational Metrics Assessment" for EACH tier individually.
